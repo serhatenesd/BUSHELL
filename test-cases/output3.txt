@@ -1,0 +1,24 @@
+
+
+
+
+cfg_sym@ config.txt
+Config content
+
+bushell: error
+
+bushell: error
+bushell: error
+
+/home/user
+
+/
+/
+  home/
+    user/
+      cfg_sym@
+      settings.txt
+
+
+
+

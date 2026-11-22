@@ -1,0 +1,8 @@
+# Build output
+bushell
+
+# Generated test artifacts
+my_outputs/
+
+# macOS metadata
+.DS_Store

@@ -1,0 +1,21 @@
+mkdir home
+mkdir home/user
+echo "Config content" > home/user/config.txt
+ln -s /home/user/config.txt home/user/cfg_sym
+ls home/user
+cat home/user/cfg_sym
+mv home/user/config.txt home/user/settings.txt
+cat home/user/cfg_sym
+echo "Updated" > home/user/settings.txt
+cat home/user/cfg_sym
+ln -s /home/user symdir
+cd home/user
+pwd
+cd ../../
+pwd
+tree
+rm home/user/cfg_sym
+rm home/user/settings.txt
+rm home/user
+rm home
+exit

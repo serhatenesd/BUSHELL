@@ -1,0 +1,23 @@
+/
+
+
+docs/ src/
+
+/docs
+
+Hello World
+hello.txt
+
+/
+./  ../ docs/ src/
+bushell: error
+
+/
+
+Hello World
+Appending text
+27	docs/hello.txt
+/
+  docs/
+    hello.txt
+  src/

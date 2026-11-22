@@ -1,0 +1,19 @@
+mkdir data
+echo "Line 1" > data/file1.txt
+cp data/file1.txt data/file2.txt
+cat data/file2.txt
+ln data/file1.txt data/hardlink.txt
+cat data/hardlink.txt
+echo "Line 2" >> data/file1.txt
+cat data/hardlink.txt
+rm data/file1.txt
+cat data/hardlink.txt
+cp data/missing.txt data/out.txt
+ln data data/linkdir
+mkdir data
+cd data
+pwd
+ls
+cd ..
+rm data
+exit
